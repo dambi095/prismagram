@@ -32,24 +32,6 @@ export const MESSAGE_FRAGMENT = `
     }
 `
 
-export const FULL_POST_FRAGEMNT = `
-    fragment PostParts on Post{
-        id
-        captions
-        location
-        files {
-            ${FILE_FRAGMENT}
-        }
-        comments {
-            ${COMMENT_FRAGMENT}
-        }
-        user {
-            ${USER_FRAGMENT}
-        }
-    }
-`
-
-
 export const ROOM_FRAGMENT = `
     fragment RoomParts on Room {
         id
