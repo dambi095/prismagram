@@ -3,6 +3,7 @@ type Mutation {
         username: String
         email: String
         firstName: String
-        lastName: String
+        lastName: String  
+        avatar: String
         bio: String ): User !
 }
